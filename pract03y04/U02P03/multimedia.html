@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #080808;
+        }
+
+        div.container {
+            overflow: auto;
+        }
+
+        header {
+            background-color: #44a9d8;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            float: left;
+            width: 20%;
+            text-align: center;
+        }
+
+        nav ul {
+            padding-left: 0px;
+        }
+
+        nav li {
+            list-style: none;
+        }
+
+        nav li a {
+            background-color: #44a9d8;
+            padding: 8px;
+            margin-top: 7px;
+            display: block;
+            width: 100%;
+            color: black;
+            font-weight: 700;
+        }
+
+        main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+        }
+
+        .right {
+            background-color: #44a9d8;
+            float: left;
+            width: 20%;
+            padding: 15px;
+            margin-top: 7px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #44a9d8;
+            text-align: center;
+            padding: 10px;
+            margin-top: 7px;
+        }
+
+        /* For mobile phones: */
+        @media only screen and (max-width: 620px) {
+
+            nav,
+            main,
+            .right {
+                width: 100%;
+            }
+        }
+    </style>
+
+
+
+</head>
+
+<body style="background-color:rgb(193, 227, 231);">
+<!-- Encabezado -->
+<header>
+    <h1>Multimedia</h1>
+</header>
+<div class="container">
+    <!-- Navegación / cotenedor izquierdo -->
+    <nav>
+        <ul>
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- Contenedor principal -->
+    <main>
+
+        <!--IMAGEN-->
+        <img src="imagenes/images.jpg" alt="messi">
+        
+        <!--VIDEO BORRADO-->
+        
+        
+        
+        <!--AUDIO-->
+        <audio controls
+             src="paulo-londra-bzrp-music-sessions-23.mp3" >
+        
+        </audio>
+
+
+    </main>
+    <!-- Contenedor secundario / derecho -->
+    <div class="right">
+        
+            <h1>Info</h1>
+            <p>este es un sitio de prueba</p>
+    </div>
+   
+   
+    
+</div>
+<!-- Pie de Página-->
+<footer>
+    <p>© copyright Matias Herrero</p>
+</footer>
+</body>
+
+</html>
