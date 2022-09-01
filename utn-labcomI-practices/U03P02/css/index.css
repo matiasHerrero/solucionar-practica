@@ -25,6 +25,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo {
@@ -46,12 +47,20 @@ nav {
 }
 
 .nav-item:hover {
-    color: black;
+    background-color: rgb(25, 255, 224);
 }
 
 .nav-item:hover a {
-    color: rgb(228, 21, 210);
+    color: rgb(5, 5, 5);
 }
 
+.nav-item-login {
+    border-style: solid;
+    border-color: rgb(250, 250, 255);
+    border-width: 2px;
+    list-style-type: none;
+}
 
-
+.navbar{
+    background-color: rgb(26, 79, 126);
+}
