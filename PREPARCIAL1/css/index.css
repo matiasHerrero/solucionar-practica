@@ -1,0 +1,15 @@
+header{
+    display: flex;
+   color: #666;
+   background-color: grey;
+   text-decoration: none;
+   
+}
+
+.personita{
+    float: left;
+}
+.logo{
+    display: flex;
+    float: right;
+}
